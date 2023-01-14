@@ -17,7 +17,10 @@ function parseWikiPage(text) {
   const commonName = $("#firstHeading").text().trim();
 
   const dataTableEl = $("table.biota");
-  const conservationStatus = $("a[title*='IUCN status']", dataTableEl)
+  const conservationStatus = $(
+    "a[title*='IUCN status'],a[title*='Vulnerable'],a[title*='endangered'],a[title*='Concern']",
+    dataTableEl
+  )
     .text()
     .trim();
 
