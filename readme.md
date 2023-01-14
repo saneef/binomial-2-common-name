@@ -11,4 +11,4 @@ npm install # install packages
 
 ## Attribution
 
-Data is fetch from [Wikipedia pages](https://en.wikipedia.org/).
+Data is fetched from [Wikipedia pages](https://en.wikipedia.org/).
