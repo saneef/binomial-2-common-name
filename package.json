@@ -1,0 +1,11 @@
+{
+  "name": "binomial-2-common-name",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "p-limit": "^4.0.0"
+  }
+}
